@@ -5,7 +5,7 @@ import java.util.List;
 import com.naveen.rest.model.Name;
 
 public interface NameDAO {
-
+///@merge
 	//for saving a record
 	public int save(Name name);
 	//for deleting a record
